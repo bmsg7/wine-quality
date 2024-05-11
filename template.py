@@ -32,7 +32,7 @@ list_of_files = [
 ]
 
 # creating files and folders
-# first of all we'll itreate tgrough each and every object in list_of_files and create files and folders if Not exist
+# first of all we'll iterate trough each and every object in lithophiles and create files and folders if Not exist
 for file_path in list_of_files:
     filepath = Path(file_path)
     file_dir, filename = os.path.split(filepath)
