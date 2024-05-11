@@ -36,4 +36,7 @@ MLOPS E2E Project MLflow Docker CI/CD AWS
    4. **Adding required Libraries** : Add necessary libraries into requirement.txt. Open the Terminal and execute `pip install -r requirement.txt`. All the mentioned libraries will get installed in the environment.
    5. Commit changes for new project setup and libraries has been added 
 
-
+## Logging Module
+Setting up logging Module. First of all we’ll set up our logging module(Refer src/mlProject/__init__.py)
+  1. Add a file src/mlProject/__init__.py
+  2. Copy the file content from this source
