@@ -23,6 +23,17 @@ MLOPS E2E Project MLflow Docker CI/CD AWS
   2. **Project Structure** : We’ll create a template.py file to where we’ll write all the necessary files and modules for our project. 
      -  template.py : This is the basic Structure of Project that everyone follows in industry. We’re using logging to find out the root cause of Bugs in the future. Open the Terminal again `(Press ctrl+~)` and run command `python template.py`. All the files and modules will automatically get created. Also in Terminal you’ll be able to see that We’re able to see each and every logs or flow of the code.
 
-     -  Commit changes or new file/folder created 
+     -  Commit changes for new file/folder created
+  3. **Adding Setup file** : Before that we need to set up setup.py :
+     - Update setup.py file and enter the information mentioned below correctly
+       ```
+       REPO_NAME = "End_to_end_MLOPS_project"
+       AUTHOR_USER_NAME = "Somesh"
+       SRC_REPO = "mlProject"
+       AUTHOR_EMAIL = "chitranshisomesh@gmail.com"
+       ```
+       We utilise setup.py to ensure that all modules are installed as a package. This ensures that there are no issues when importing from any location. In this case, we are creating 'src' as a package.
+   4. **Adding required Libraries** : Add necessary libraries into requirement.txt. Open the Terminal and execute `pip install -r requirement.txt`. All the mentioned libraries will get installed in the environment.
+   5. Commit changes for new project setup and libraries has been added 
 
 
