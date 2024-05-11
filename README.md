@@ -16,9 +16,13 @@ MLOPS E2E Project MLflow Docker CI/CD AWS
       - On the same opened terminal cd to the project folder and then print `code .`
   
   ## Building Project
-  1. Virtual Environment creation :
+  1. **Virtual Environment creation** :
      - First task we’ll create a new environment. For that go to Terminal and click on the new terminal. Execute the below command in the terminal
 `conda create -p ./env python=3.8 -y`
      - activate the virtual environment. `conda activate ./env`. This will activate the virtual Environment
-  2. 
+  2. **Project Structure** : We’ll create a template.py file to where we’ll write all the necessary files and modules for our project. 
+     -  template.py : This is the basic Structure of Project that everyone follows in industry. We’re using logging to find out the root cause of Bugs in the future. Open the Terminal again `(Press ctrl+~)` and run command `python template.py`. All the files and modules will automatically get created. Also in Terminal you’ll be able to see that We’re able to see each and every logs or flow of the code.
+
+     -  Commit changes or new file/folder created 
+
 
