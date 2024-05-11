@@ -40,3 +40,16 @@ MLOPS E2E Project MLflow Docker CI/CD AWS
 Setting up logging Module. First of all we’ll set up our logging module(Refer src/mlProject/__init__.py)
   1. Add a file src/mlProject/__init__.py
   2. Copy the file content from this source
+## Utils Module
+In the "utils" part of our code, we put things that we use a lot in different places. For example, if we keep reading information from a YAML file and using it everywhere, instead of doing the same thing in many places, we can just write one function read_yaml it once in a file called "utils/common.py." 
+This way, we can easily reuse that piece of code wherever we need it in our project. It helps keep things organised and saves us from writing the same code over and over again.
+### Basic functions
+Other Function are there such as:
+1. create_directories: Creates directories specified in the input list. It also logs the creation of each directory.
+2. save_json: Saves data as a JSON file at the specified path.
+3. load_json: Loads data from a JSON file and returns it as a ConfigBox object.
+4. save_bin: Saves binary data to a file using the joblib library.
+5. load_bin: Loads binary data from a file using the joblib library.
+6. get_size: Retrieves and returns the size of a file in kilobytes.
+
+
